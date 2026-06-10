@@ -1,0 +1,16 @@
+﻿ID,Nombre,Apellido,Email,Fecha_Nacimiento,Edad,Salario,Ciudad
+1,Juan,,juan.perez@gmail.com,15/03/1990,34,25000,Guadalajara
+2,Maria,,maria.gonzalez@,,39,32000,Monterrey
+3,Carlos,,carlos.lopez@empresa.com,22/07/1990,33,28500,Ciudad De México
+4,Ana,,ana.martinez@hotmail.com,05/11/1995,28,21000,Puebla
+5,Juan,,juan.perez@gmail.com,15/03/1990,34,25000,Guadalajara
+6,Roberto,,roberto.sanchez@,,24,,Monterrey
+7,,,sin-correo,,,0,
+8,Lucía,,lucia.ramirez@yahoo.com,12/08/1988,35,45000,Guadalajara
+9,Miguel <Ángel>,,miguel{torres}@gmail.com,25/06/1992,31,31000,Cdmx
+10,Fernanda,,fernanda.vasquez@outlook.com,14/03/2001,23,19500,Tijuana
+11,Pedro,,pedro.morales@empresa.com,10/10/1975,48,67000,Monterrey
+12,Sofía,,sofia.herrera@gmail.com,28/02/1998,25,22000,León
+13,Juan,,juan.perez@gmail.com,15/03/1990,34,25000,Guadalajara
+14,Alejandro,,alejandro@,,40,55000,Querétaro
+15,Carmen,,carmen.flores@hotmail.com,07/07/2000,23,,Cancún

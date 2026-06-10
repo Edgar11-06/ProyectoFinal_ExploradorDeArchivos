@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>DataValidationModule</RootNamespace>
+    <AssemblyName>DataValidationModule</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="UI\FrmDataValidation.resx">
+      <DependentUpon>FrmDataValidation.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

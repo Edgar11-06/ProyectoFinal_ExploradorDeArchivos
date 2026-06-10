@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SistemaMultimedia</RootNamespace>
+    <AssemblyName>SistemaMultimedia</AssemblyName>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataValidationModule\DataValidationModule.csproj" />
+    <ProjectReference Include="..\FotoGeolocalizada\FotoGeolocalizada.csproj" />
+    <ProjectReference Include="..\Imagenes.Shared\Imagenes.Shared.csproj" />
+    <ProjectReference Include="..\VisorEditorDocumentos\VisorEditorDocumentos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DirectShowLib" Version="1.0.0" />
+    <PackageReference Include="LibVLCSharp.WinForms" Version="3.9.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+    <PackageReference Include="MySqlConnector" Version="2.5.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NAudio.Lame" Version="2.1.0" />
+    <PackageReference Include="Npgsql" Version="10.0.2" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.7.0.202" />
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.23" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\ExploradorArchivosForm.resx">
+      <DependentUpon>ExploradorArchivosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\GrabadoraAudioForm.resx">
+      <DependentUpon>GrabadoraAudioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\ReproductorMp3Form.resx">
+      <DependentUpon>ReproductorMp3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\ReproductorVideoForm.resx">
+      <DependentUpon>ReproductorVideoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\DataFusionForm.resx">
+      <DependentUpon>DataFusionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\CamaraForm.resx">
+      <DependentUpon>CamaraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\GalleryForm.resx">
+      <DependentUpon>GalleryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\GroupSummaryForm.resx">
+      <DependentUpon>GroupSummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\GroupByDialog.resx">
+      <DependentUpon>GroupByDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\SqlConnectionDialog.resx">
+      <DependentUpon>SqlConnectionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

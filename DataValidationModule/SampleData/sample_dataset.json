@@ -1,0 +1,8 @@
+[
+  {"ID": "1", "Nombre": "juan",       "Email": "juan@empresa.com",      "Fecha": "15/03/1990", "Salario": "25000"},
+  {"ID": "2", "Nombre": "MARIA",      "Email": "maria.invalido",        "Fecha": "2001-13-05", "Salario": "32000"},
+  {"ID": "3", "Nombre": "  Carlos ",  "Email": "carlos@empresa.com",    "Fecha": "22-07-1990", "Salario": "abc"  },
+  {"ID": "4", "Nombre": "Ana",        "Email": "ana@hotmail.com",       "Fecha": "05/11/1995", "Salario": "21000"},
+  {"ID": "5", "Nombre": "juan",       "Email": "juan@empresa.com",      "Fecha": "15/03/1990", "Salario": "25000"},
+  {"ID": "6", "Nombre": "",           "Email": "",                      "Fecha": "",           "Salario": "0"    }
+]
